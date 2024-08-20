@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+#heading {
+    margin: 5rem 0 2rem 0;
+}
+#game-area {
+    width: 850px;
+    background-color:tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+#game-grid {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(25, 30px);
+    grid-template-rows: repeat(15, 30px);
+    margin: auto;
+    gap: 2px;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}
+
+.mine {
+    background-color: gray;
+}
