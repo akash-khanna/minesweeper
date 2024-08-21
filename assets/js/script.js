@@ -21,11 +21,11 @@ function fillGrid() {
 function placeMines() {
   let rndi = [];
   let rndj = [];
-  for (let i = 0; i < 69; i++) {
+  for (let i = 0; i < 80; i++) {
     rndi[i] = Math.floor(Math.random() * 15);
     rndj[i] = Math.floor(Math.random() * 25);
   }
-  for (let i = 0; i < 69; i++) {
+  for (let i = 0; i < 80; i++) {
     gridCells[rndi[i]][rndj[i]].classList.add("mine");
   }
 }
