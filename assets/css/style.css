@@ -17,7 +17,7 @@ body {
 }
 
 #game-grid {
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     display: grid;
     grid-template-columns: repeat(25, 30px);
     grid-template-rows: repeat(15, 30px);
@@ -25,16 +25,28 @@ body {
     gap: 2px;
 }
 
-.game-info {
+#game-info {
     margin-top: 20px;
+    display: flex;
+}
+
+#timer {
+    margin: 0 50px;
 }
 
 .cell {
     height: 30px;
     width: 30px;
     border: 1px solid black;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .mine {
     background-color: gray;
+}
+
+.cover {
+    background-color: lightsalmon;
+    color: lightsalmon;
 }
